@@ -1,0 +1,44 @@
+{
+	"name": "devlens",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Upload a coding screenshot and get a structured explanation and fix in seconds.",
+	"keywords": [
+		"ai",
+		"debugging",
+		"ocr",
+		"screenshot",
+		"nextjs",
+		"code-fixes"
+	],
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@ai-sdk/google": "^4.0.0",
+		"@ai-sdk/openai": "^2.0.76",
+		"@ai-sdk/react": "2.0.106",
+		"@tabler/icons-react": "^3.35.0",
+		"@vercel/analytics": "^1.6.1",
+		"ai": "^7.0.2",
+		"clsx": "^2.1.1",
+		"geist": "^1.7.2",
+		"motion": "^12.43.0",
+		"next": "16.0.7",
+		"react": "19.2.1",
+		"react-dom": "19.2.1",
+		"sonner": "^2.0.7",
+		"zod": "^4.4.3"
+	},
+	"devDependencies": {
+		"@tailwindcss/postcss": "^4.1.17",
+		"@types/node": "^24",
+		"@types/react": "19.2.7",
+		"@types/react-dom": "19.2.3",
+		"postcss": "^8",
+		"tailwindcss": "^4.1.17",
+		"typescript": "^5"
+	}
+}
