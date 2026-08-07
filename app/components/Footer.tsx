@@ -1,6 +1,6 @@
 import { IconBrandGithub, IconArrowUpRight } from "@tabler/icons-react";
 
-const GITHUB_URL = "https://github.com/";
+const GITHUB_URL = "https://github.com/BinarySpecter/DevLens";
 
 export default function Footer() {
 	return (
@@ -29,7 +29,7 @@ export default function Footer() {
 					<a
 						href={GITHUB_URL}
 						target="_blank"
-						rel="noreferrer"
+						rel="noopener noreferrer"
 						className="inline-flex items-center gap-1.5 text-zinc-400 hover:text-emerald-300 transition-colors duration-200"
 					>
 						<IconBrandGithub className="size-4" />
@@ -37,6 +37,12 @@ export default function Footer() {
 						<IconArrowUpRight className="size-3.5" />
 					</a>
 				</div>
+			</div>
+
+			<div className="border-t border-white/[0.04]">
+				<p className="text-center text-xs text-zinc-600 font-mono pt-8 pb-6 px-6">
+					Crafted by Chetan Chittori
+				</p>
 			</div>
 		</footer>
 	);

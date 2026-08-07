@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import clsx from "clsx";
 import { IconBrandGithub, IconArrowUpRight } from "@tabler/icons-react";
 
-const GITHUB_URL = "https://github.com/";
+const GITHUB_URL = "https://github.com/BinarySpecter/DevLens";
 
 const links = [
 	{ id: "how-it-works", label: "How it Works" },
@@ -72,7 +72,7 @@ export default function Navbar() {
 				<a
 					href={GITHUB_URL}
 					target="_blank"
-					rel="noreferrer"
+					rel="noopener noreferrer"
 					className="inline-flex items-center gap-1.5 px-4 h-9 text-sm font-medium text-zinc-300 border border-white/10 rounded-full hover:border-emerald-400/50 hover:text-emerald-300 transition-colors duration-200"
 				>
 					<IconBrandGithub className="size-4" />

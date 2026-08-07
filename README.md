@@ -2,6 +2,10 @@
 
 **AI-powered debugging for developers.** Paste, drop, or upload a screenshot of your code, terminal, browser console, or stack trace — DevLens analyzes it and returns a structured debugging report with the problem, root cause, explanation, and suggested fix in seconds.
 
+## 🚀 Live Demo
+
+**[getdevlens.vercel.app](https://getdevlens.vercel.app)** — try it without installing anything.
+
 <p align="center">
   <img src="assets/screenshots/hero.png" width="80%" alt="DevLens hero screenshot" />
 </p>
@@ -74,13 +78,13 @@ Every analysis is saved locally in your browser (localStorage) — up to 50 sess
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/devlens.git
-cd devlens
+git clone https://github.com/BinarySpecter/DevLens.git
+cd DevLens
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). You'll need a Google API key — see below.
+Open [http://localhost:3000](http://localhost:3000) — or skip setup and use the [live demo](https://getdevlens.vercel.app). You'll need a Google API key — see below.
 
 > **NOTE:** Screenshots are sent to the Gemini API for analysis. They are not stored on the server.
 
